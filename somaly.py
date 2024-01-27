@@ -4,7 +4,7 @@ import time
 API_URL = 'https://api.telegram.org/bot'
 BOT_TOKEN = '6654614422:AAG8nK3ULsuOZlanJ33DTiOJ4E_Ggto_cEM'
 
-TEXT = 'Шаг ближе к backend'
+TEXT = input()
 
 MAX_COUNTER = 100
 
