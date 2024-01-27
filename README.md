@@ -1,3 +1,3 @@
 # first_repository readmy
 
-! Осторожно
+#как мне сделать это?
