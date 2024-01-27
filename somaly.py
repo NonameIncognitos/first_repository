@@ -1,1 +1,2 @@
 print("cost")
+print("local")
