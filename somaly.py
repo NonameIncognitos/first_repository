@@ -12,6 +12,7 @@ offset = 0
 counter = 0
 chat_id: int
 
+#Небольшое изменения
 while counter < MAX_COUNTER:
     print('attempt', counter)
     updates = requests.get(f'{API_URL}{BOT_TOKEN}/getUpdates?offset={offset+1}').json()
