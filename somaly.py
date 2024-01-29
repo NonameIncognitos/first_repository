@@ -4,7 +4,7 @@ import time
 
 API_URL = 'https://api.telegram.org/bot'
 API_CATS_URL = 'https://api.thecatapi.com/v1/images/search'
-BOT_TOKEN = ''
+BOT_TOKEN = '6654614422:AAG8nK3ULsuOZlanJ33DTiOJ4E_Ggto_cEM'
 ERROR_TEXT = 'Здесь должна была быть картинка с котиком :('
 
 offset = -2
