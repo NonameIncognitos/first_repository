@@ -1,8 +1,14 @@
+import os
+from dotenv import load_dotenv
 from telebot import TeleBot, types
 
-token = "6448533920:AAH-OapY9s6TkG-Uco4LyY-EJV9r_6BxVV8"
+
+load_dotenv()
+
+token = os.getenv('token')
 bot = TeleBot(token)
 
+print('token:', token)
 # Функция создания клавиатуры с категориями
 def create_category_keyboard():
     keyboard = types.ReplyKeyboardMarkup(row_width=3, resize_keyboard=True)
